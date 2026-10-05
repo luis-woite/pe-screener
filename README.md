@@ -1,6 +1,6 @@
 # PE Screener
 
-A tool that takes a ticker, pulls the company's financials, filings, and recent news, and spits out a first-pass screening memo — the kind of thing I used to do by hand at HSBC and SK Venture Partners. Also has an optional ML model bolted on that predicts whether margins are likely to expand or contract next year.
+A tool that takes a ticker, pulls the company's financials, filings, and recent news, and spits out a first-pass screening memo. Also has an optional ML model bolted on that predicts whether margins are likely to expand or contract next year.
 
 ## Where this actually stands
 
@@ -10,9 +10,9 @@ I built this to learn applied LLM integration and get my hands dirty with real M
 - I evaluate with one time-based train/test split (train on older years, test on the most recent), not k-fold cross-validation. Good enough for v1, not rigorous.
 - The holdout is by year, not by company, so the model may have seen a company's 2019 data in training and its 2023 data in testing. A cleaner setup would hold out whole companies.
 - Banks and broker-dealers mostly disappear from the training set because they don't report EBITDA the way industrial or consumer companies do. So the model is really trained on non-financials.
-- The LLM part (risk flags, summary) is prompt-based grounding against retrieved text — not a fine-tuned model.
+- The LLM part (risk flags, summary) is prompt-based grounding against retrieved text - not a fine-tuned model.
 
-None of this is buried — the same caveats are in the docstrings in `src/ml/train_model.py` if you want the long version.
+None of this is buried - the same caveats are in the docstrings in `src/ml/train_model.py` if you want the long version.
 
 ## Structure
 pe_screener/
