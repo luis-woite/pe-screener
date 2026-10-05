@@ -6,7 +6,7 @@ It also has an optional ML model bolted on that predicts whether margins are lik
 
 Purpose of this is to show one can build a tool that compresses hours of analyst work into minutes. It's an aid to independent judgment - not replacing it!
 
-Ofc this model can be tweaked for screening e.g. comps or precedent transactions candidates. It's a super simplied version here. 
+Ofc this model can be tweaked for screening e.g. comps or precedent transactions candidates. It's a super simplified version here. 
 
 Drop me a message on LinkedIn if you'd want something like this built into your firm's workflow!
 
