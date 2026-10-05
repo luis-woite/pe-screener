@@ -8,7 +8,7 @@ Purpose of this is to show one can build a tool that compresses hours of analyst
 
 Ofc this model can be tweaked for screening e.g. comps or precedent transactions candidates. It's a super simplified version here. 
 
-Drop me a message on LinkedIn if you'd want something like this built into your firm's workflow!
+Drop me a message on LinkedIn if you'd want my more advanced models built into your firm's workflow!
 
 ## Where this actually stands
 
