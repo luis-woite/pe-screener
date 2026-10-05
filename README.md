@@ -1,6 +1,14 @@
 # PE Screener
 
-A tool that takes a ticker, pulls the company's financials, filings, and recent news, and spits out a first-pass screening memo. Also has an optional ML model bolted on that predicts whether margins are likely to expand or contract next year.
+A tool that takes a ticker, pulls the company's financials, filings, and recent news, and spits out a first-pass screening memo. 
+
+It also has an optional ML model bolted on that predicts whether margins are likely to expand or contract next year.
+
+Purpose of this is to show one can build a tool that compresses hours of analyst work into minutes. It's an aid to independent judgment - not replacing it!
+
+Ofc this model can be tweaked for screening e.g. comps or precedent transactions candidates. It's a super simplied version here. 
+
+Drop me a message on LinkedIn if you'd want something like this built into your firm's workflow!
 
 ## Where this actually stands
 
